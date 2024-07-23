@@ -4,6 +4,8 @@ import { useCookies } from "react-cookie";
 export default function Home() {
   const [cookies, setCookie] = useCookies();
 
+  console.log(cookies);
+
   return (
     <div>
       <h1>Cookies</h1>
