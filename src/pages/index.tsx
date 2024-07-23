@@ -6,8 +6,10 @@ export default function Home() {
 
   return (
     <div>
-      <h1>Home</h1>
-      <p>Cookie: {cookies["trueapp-device-id"]}</p>
+      <h1>Cookies</h1>
+      <p>trueapp-authorization: {cookies["trueapp-authorization"]}</p>
+      <p>trueapp-device-id: {cookies["trueapp-device-id"]}</p>
+      <p>trueapp-language: {cookies["trueapp-language"]}</p>
     </div>
   );
 }
